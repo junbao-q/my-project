@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Dataset
 ## Human3.6M：data/motion3d
-Download the fine-tuned Stacked Hourglass detections of preprocessed H3.6M data [here](#https://onedrive.live.com/?id=A5438CD242871DF0%21206&resid=A5438CD242871DF0%21206&e=vobkjZ&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdkFkaDBMU2pFT2xnVTdCdVVaY3lhZnU4a3pjP2U9dm9ia2pa&cid=a5438cd242871df0&v=validatepermission) and unzip it to 'data/motion3d'.
+Download the fine-tuned Stacked Hourglass detections of preprocessed H3.6M data [here](https://onedrive.live.com/?id=A5438CD242871DF0%21206&resid=A5438CD242871DF0%21206&e=vobkjZ&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdkFkaDBMU2pFT2xnVTdCdVVaY3lhZnU4a3pjP2U9dm9ia2pa&cid=a5438cd242871df0&v=validatepermission) and unzip it to 'data/motion3d'.
 
 Slice the motion clips by running the following python code in directory:data/preprocess
 
@@ -37,7 +37,13 @@ For MAPAGFormer-XSmall:
 ```bash
 python h36m.py --n-frames 27
 ```    
-  ## MPI-INF-3DHP: motion3d.
+  ## MPI-INF-3DHP: motion3d
+  Preprocessing
+Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp)  for dataset setup. After preprocessing, the generated .npz files ( and ) should be located at directory.
+```bash
+data_train_3dhp.npzdata_test_3dhp.npzdata/motion3d 
+```
+
  ---
  
 # Training
