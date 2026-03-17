@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Human3.6M：data/motion3d
 Slice the motion clips by running the following python code in directory:data/preprocess
 
-For MAPAGFormer-Base and MotionAGFormer-Large:
+For MAPAGFormer-Base and MAPAGFormer-Large:
 ```bash
 python h36m.py  --n-frames 243
 ```
