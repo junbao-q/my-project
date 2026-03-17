@@ -1,5 +1,6 @@
 # MAPAGFormer: Multi-Granular Anatomy-Prior Enhanced AGFormer for Accurate 3D Human Pose Estimation
   a 3D human pose estimation framework that integrates multi-granular anatomical priors
+  
 # Environment
 The project is developed under the following environment:
 Python 3.8.10
